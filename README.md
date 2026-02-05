@@ -80,7 +80,7 @@ cp .env.example .env
 Then edit `.env` and set:
 
 ```env
-API_KEY=<your-generated-key>
+API_KEY=<Guviiiiiy>
 MODEL_ID=superb/wav2vec2-base-superb-sid
 MODEL_REVISION=main
 HOST=0.0.0.0
@@ -226,12 +226,4 @@ docker run -p 8000:8000 -e API_KEY=super-secret-key -e MODEL_ID=<your-model-id> 
 
 ---
 
-## Hackathon Production Readiness Notes
-
-- Uses startup-time model loading to avoid per-request cold starts.
-- Applies strict request schema validation with Pydantic.
-- Enforces API key auth middleware for all non-health routes.
-- Adds deterministic response format for leaderboard evaluations.
-- Includes confidence + score breakdown for explainability.
-- Can be horizontally scaled behind a load balancer.
-- For best accuracy, plug in a dedicated anti-spoof Hugging Face model via `MODEL_ID`.
+#
