@@ -70,26 +70,6 @@ FFmpeg is required to decode MP3 files.
 
 ### 3) Configure environment variables
 
-#### Generate your own API key (recommended)
-
-Use one of these commands to generate a strong random key:
-
-```bash
-python -c "import secrets; print(secrets.token_urlsafe(48))"
-```
-
-or
-
-```bash
-openssl rand -hex 32
-```
-
-#### Where to put the API key
-
-You can set it in either place:
-
-1. **Shell environment** (quick local run)
-2. **`.env` file** in the project root (recommended for development)
 
 Create `.env` from template:
 
