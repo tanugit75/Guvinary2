@@ -4,5 +4,5 @@ pydantic==2.10.4
 pydantic-settings==2.7.0
 numpy==2.2.1
 soundfile==0.12.1
-torch==2.5.1
+torch
 transformers==4.47.1
